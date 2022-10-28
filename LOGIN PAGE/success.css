@@ -1,0 +1,19 @@
+body{
+    background-color: skyblue;
+  }
+  .square{
+    width:300px;
+    height:250px;
+    border:1px solid;
+    border-radius:20px;
+    margin:10px auto;
+    background-image:url(https://th.bing.com/th/id/R.fe4d6c3618281eb7166f7294302f7663?rik=U4125hGnb3%2fBjw&riu=http%3a%2f%2fnews.calderdale.gov.uk%2fwp-content%2fuploads%2f2013%2f08%2fTick-in-circle-300x300.jpg&ehk=kPKyYpRYpmX6G%2btQyjG05t%2bdSQIpM2p%2bo2lhwJgK0R4%3d&risl=&pid=ImgRaw&r=0);
+    background-size:cover;
+    background-color:skyblue;
+  }
+  .text{
+    text-align:center;
+    color:black;
+    margin:30px auto;
+  }
+  
