@@ -1,0 +1,49 @@
+.container{
+    background-color: aliceblue;
+    display:grid;
+    grid-template-areas:
+    'a a a b'
+    'c c d d'
+    'c c e e';
+    width: 30%;
+    margin:10em auto;
+    gap:8px;
+  }
+  .item-1{
+    background-color: green;
+    grid-area: a;
+    padding:30px;
+  }
+  .item-2{
+    background-color: yellow;
+    grid-area: b;
+    padding: 12px;
+  }
+  .item-3{
+    background-color: purple;
+    grid-area: c;
+    padding: 15px;
+  }
+  .item-4{
+    background-color: orangered;
+    grid-area: d;
+    padding: 15px;
+  }
+  .item-5{
+    background-color: orangered;
+    grid-area: e;
+    padding: 15px;
+  }
+  @media screen  and (max-width: 375px) {
+      .container{
+          width:70%;
+          grid-template-areas: 
+          'a a'
+          'b b'
+          'c c'
+          'd e';
+      }
+      .item-1{
+          padding:15px;
+      }
+  }
